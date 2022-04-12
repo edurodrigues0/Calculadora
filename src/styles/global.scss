@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #2C302E;
+  --white: #f3f3f3;
+  --black: #1C1C1C;
+  --gray: #505050;
+  --orange: #FF9500;
+}
+
+body {
+  background: var(--background);
+}
+
+button {
+  cursor: pointer;
+}
+
+@media(max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media(max-width: 600px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media(max-width: 300px) {
+  html {
+    font-size: 62.5%;
+  }
+}
